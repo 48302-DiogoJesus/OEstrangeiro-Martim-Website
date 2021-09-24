@@ -103,4 +103,7 @@ p {
     font-size: 1.23rem;
   }
 }
+header {
+  font-size: 0.5rem !important;
+}
 /*# sourceMappingURL=book-page.css.map */

@@ -106,7 +106,7 @@
     width: 100px;
   }
   header {
-    font-size: 0.62rem;
+    font-size: 0.5rem !important;
   }
   header h1 {
     margin: 20px;
@@ -126,4 +126,5 @@
     min-width: 290px !important;
   }
 }
+
 /*# sourceMappingURL=list-of-books.css.map */

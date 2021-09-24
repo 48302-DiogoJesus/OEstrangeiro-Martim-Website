@@ -51,7 +51,7 @@ header nav ul li:hover::before {
   width: 100vw;
   height: 78vh;
   -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 
 .image-container .filter {
@@ -62,7 +62,13 @@ header nav ul li:hover::before {
   background: #ed4264;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left bottom, left top, from(#ffedbc), to(#ed4264));
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#ffedbc),
+    to(#ed4264)
+  );
   background: linear-gradient(to top, #ffedbc, #ed4264);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -78,14 +84,14 @@ header nav ul li:hover::before {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .image-container .text-wrapper h1 {
@@ -108,7 +114,7 @@ footer {
 
 @media (max-width: 650px) {
   header {
-    font-size: 0.65rem;
+    font-size: 0.5rem !important;
   }
 }
 

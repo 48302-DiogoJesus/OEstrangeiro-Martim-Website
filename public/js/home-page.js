@@ -129,8 +129,14 @@ window.addEventListener('resize', () => {
     if (window.innerWidth > 976) {
         hideMobileMenu()
         headerIcon.style.height = '80px'
-    } else if (window.innerWidth <= 976 && headerIcon.style.height !== '80px') {
-        headerIcon.style.height = 'none'
+        searchIcon.style.display = "flex"
+    } else if (window.innerWidth <= 976) {
+        if (headerNav.style.flexDirection === 'column') {
+            
+        } else {
+            headerIcon.style.height = 'none'
+            searchIcon.style.display = "none"
+        }
     }
 })
 
