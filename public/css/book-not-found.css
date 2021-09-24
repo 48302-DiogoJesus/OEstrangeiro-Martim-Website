@@ -1,0 +1,120 @@
+header {
+  height: 100px;
+  font-size: 0.82rem;
+}
+
+header nav ul {
+  padding-left: 0;
+}
+
+header nav ul li {
+  font-size: 1.25rem;
+  margin-left: 0;
+}
+
+header nav ul li::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+header nav ul li:hover::after {
+  width: 0%;
+}
+
+header nav ul li::before {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 3px;
+  background-color: black;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+header nav ul li:hover::before {
+  width: 100%;
+}
+
+.image-container {
+  overflow: hidden;
+  max-height: 78vh;
+  position: relative;
+}
+
+.image-container img {
+  opacity: 0.3;
+  width: 100vw;
+  height: 78vh;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.image-container .filter {
+  position: absolute;
+  opacity: 1;
+  width: 100vw;
+  height: 78vh;
+  background: #ed4264;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffedbc), to(#ed4264));
+  background: linear-gradient(to top, #ffedbc, #ed4264);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.image-container .text-wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.image-container .text-wrapper h1 {
+  font-size: 2.4rem;
+}
+
+.image-container .text-wrapper p {
+  font-size: 1.5rem;
+}
+
+.image-container .text-wrapper p span {
+  font-weight: bold;
+}
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+
+@media (max-width: 650px) {
+  header {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 976px) {
+  nav {
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=book-not-found.css.map */
