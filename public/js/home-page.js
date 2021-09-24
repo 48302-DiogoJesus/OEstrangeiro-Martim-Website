@@ -280,6 +280,7 @@ $.addEventListener('DOMContentLoaded', async () => {
     imagesData = await getImagesData()
     buildImagesSlider()
     updateImageInfo()
+    $.getElementsByClassName('loading-screen')[0].innerText = ''
 })
 
 const buildImagesSlider = () => {

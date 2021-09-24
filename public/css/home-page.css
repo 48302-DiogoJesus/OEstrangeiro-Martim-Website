@@ -565,7 +565,7 @@ header .search-book-input:focus {
   min-height: 450px;
   width: 979px;
   max-width: 100vw;
-  opacity: 1;
+  opacity: 0.4;
 }
 
 .slideshow-wrapper .image-controlls {
@@ -611,6 +611,7 @@ header .search-book-input:focus {
   top: 30px;
   left: 65px;
   max-width: 85%;
+  filter: saturate(2);
 }
 
 .slideshow-wrapper .image-controlls .signature {
@@ -618,6 +619,7 @@ header .search-book-input:focus {
   text-align: left;
   position: absolute;
   bottom: 35px;
+  filter: saturate(2);
 }
 
 footer {
