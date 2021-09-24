@@ -600,18 +600,10 @@ header .search-book-input:focus {
   margin-left: 20px;
 }
 
-.slideshow-wrapper .image-controlls .fa-arrow-left:active {
-  margin-left: 10px;
-}
-
 .slideshow-wrapper .image-controlls .fa-arrow-right {
   right: 0;
   top: 50%;
   margin-right: 20px;
-}
-
-.slideshow-wrapper .image-controlls .fa-arrow-right:active {
-  margin-right: 10px;
 }
 
 .slideshow-wrapper .image-controlls .paragraph-wrapper {
