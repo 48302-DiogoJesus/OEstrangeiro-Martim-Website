@@ -609,7 +609,7 @@ header .search-book-input:focus {
 .slideshow-wrapper .image-controlls .paragraph-wrapper {
   position: absolute;
   top: 30px;
-  left: 65px;
+  left: 35px;
   max-width: 85%;
   filter: saturate(2);
 }
